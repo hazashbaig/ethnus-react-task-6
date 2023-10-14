@@ -2,18 +2,16 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div className="section">
+    <div className="section contact">
       <h2>Contact Me</h2>
       <form>
         <label>
-          Name:
-          <input type="text" />
+          Name: Hazash Baig
         </label>
+        <br/><br/>
         <label>
-          Email:
-          <input type="email" />
+          Email: hazashbaig@gmail.com
         </label>
-        <button type="submit">Submit</button>
       </form>
     </div>
   );
